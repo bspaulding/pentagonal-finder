@@ -6,6 +6,9 @@ require 'ostruct'
 Integer.send(:include, PentagonalHelpers)
 
 class PentagonalFinder
+  # Increments j starting at 1, and for each j computes each pair where k is j-1 down to 1.
+  # It can be demonstrated, and perhaps proven, that as j increases, d for the pair P(j) / P(j-1) will increase.
+  # Therefore, the first pair this algorithm runs into, should be the pair with the smallest d.
   def run(&block)
     j = 1
     result = nil
