@@ -25,6 +25,8 @@ To run with status info, which is significantly slower:
 Running the tests
 -----------------
 
+[![Build Status](https://secure.travis-ci.org/bspaulding/pentagonal-finder.png?branch=master)](http://travis-ci.org/bspaulding/pentagonal-finder)
+
 To run the unit tests:
 
     rake
