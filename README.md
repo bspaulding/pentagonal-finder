@@ -15,16 +15,22 @@ Running the PentagonalFinder
 ----------------------------
 
 To run without status info:
+
     rake find
+
 To run with status info, which is significantly slower:
+
     rake find[true]
 
 Running the tests
 -----------------
 
 To run the unit tests:
+
     rake
+
 or:
+
     rake test
 
 Requirements
